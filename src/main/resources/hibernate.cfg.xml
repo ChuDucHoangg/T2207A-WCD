@@ -15,5 +15,7 @@
         <!--     update or re-create db schema   -->
 <!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
         <mapping class="wcd.jpa.entities.Student"/>
+        <mapping class="wcd.jpa.entities.Classes"/>
+        <mapping class="wcd.jpa.entities.Subject"/>
     </session-factory>
 </hibernate-configuration>
